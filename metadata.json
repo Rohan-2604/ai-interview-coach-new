@@ -1,0 +1,8 @@
+
+{
+  "name": "AI Interview Coach",
+  "description": "An AI-powered interview coach that provides tailored questions based on your engineering branch and gives instant feedback on your answers, supporting both text and voice input.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
