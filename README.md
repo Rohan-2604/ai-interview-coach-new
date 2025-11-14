@@ -67,3 +67,81 @@ const recognition = new window.SpeechRecognition();
 recognition.onresult = (e) => setAnswer(e.results[0][0].transcript);
 recognition.start();
 
+⚙️ Setup Instructions
+1. Clone the Repository
+git clone https://github.com/yourusername/ai-interview-coach.git
+cd ai-interview-coach
+
+2. Install Dependencies
+npm install
+
+3. Create .env File
+
+Create a .env file in the project root and add:
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+
+⚠️ Note: You can obtain your Gemini API key from
+https://aistudio.google.com/app/apikey
+
+4. Run the App Locally
+npm run dev
+
+
+Then open http://localhost:5173
+ in your browser.
+
+🧪 Usage Guide
+🏁 Start an Interview
+
+Select your branch (e.g., Software, Mechanical, Electrical).
+
+Choose difficulty and number of questions.
+
+Click “Start Interview” to generate questions.
+
+🗣️ Answer via Speech or Text
+
+Click the 🎙 microphone icon to speak your answer.
+
+The app transcribes your speech using the Web Speech API.
+
+Your response is analyzed by Gemini for feedback.
+
+📄 Upload Resume
+
+Upload a .pdf resume file.
+
+The AI evaluates structure, skills, and suggests improvements.
+
+📈 Evaluation Criteria
+
+The system’s performance is evaluated qualitatively on:
+
+Relevance: Are generated questions appropriate for the branch and level?
+
+Coherence: Are responses grammatically and logically sound?
+
+Actionability: Is the feedback clear and useful?
+
+📷 Screenshots
+
+(Add screenshots once you deploy the project)
+
+Interview Screen	Resume Analysis	Feedback Example
+
+	
+	
+📚 References
+
+Google Gemini API Documentation
+
+Tailwind CSS Documentation
+
+React Official Docs
+
+Web Speech API (MDN)
+
+PDF.js Documentation
+
